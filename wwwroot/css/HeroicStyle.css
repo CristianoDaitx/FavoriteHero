@@ -1,0 +1,12 @@
+﻿body {
+    background-image: url("/images/comic-style-background.jpg");
+    background-size: contain,auto;
+    background-position: center;
+    background-repeat: repeat-x;
+    min-height: 200px;
+}
+div{
+    vertical-align:central;
+    
+}
+
