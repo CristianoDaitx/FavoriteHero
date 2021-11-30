@@ -6130,11 +6130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Cristiano\\Avidity test\\FavoriteHero\\FavoriteHero\\FavoriteHero.csproj",
+      "projectUniqueName": "C:\\Users\\sarai\\Documents\\GitHub\\FavoriteHero\\FavoriteHero.csproj",
       "projectName": "FavoriteHero",
-      "projectPath": "D:\\Cristiano\\Avidity test\\FavoriteHero\\FavoriteHero\\FavoriteHero.csproj",
+      "projectPath": "C:\\Users\\sarai\\Documents\\GitHub\\FavoriteHero\\FavoriteHero.csproj",
       "packagesPath": "C:\\Users\\sarai\\.nuget\\packages\\",
-      "outputPath": "D:\\Cristiano\\Avidity test\\FavoriteHero\\FavoriteHero\\obj\\",
+      "outputPath": "C:\\Users\\sarai\\Documents\\GitHub\\FavoriteHero\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

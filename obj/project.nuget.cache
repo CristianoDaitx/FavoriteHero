@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WNGqbHyHovye+86HIxhFbJtTv9ssUnwJ6oKQOVvWdeuxHkh6xm7hUgJefw1vaX89t9vGNwT2mqPOp8k1+axZ7Q==",
+  "dgSpecHash": "pZW0ehOq/HBwOw9QevpDDxv9Cp11BpxCY74VfU4fFzXjZXuf/QE3QKhDOC6Tmu3VMTJYQxoLKpCRdfEYcNWLNA==",
   "success": true,
-  "projectFilePath": "D:\\Cristiano\\Avidity test\\FavoriteHero\\FavoriteHero\\FavoriteHero.csproj",
+  "projectFilePath": "C:\\Users\\sarai\\Documents\\GitHub\\FavoriteHero\\FavoriteHero.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sarai\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\sarai\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.21\\microsoft.aspnetcore.mvc.razor.extensions.3.1.21.nupkg.sha512",

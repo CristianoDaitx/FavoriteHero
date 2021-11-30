@@ -1,30 +1,31 @@
 ﻿@model FavoriteHero.MarvelAPI.CharacterComicViewModel
 @{
     ViewData["Title"] = "Favorite Hero";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 
-<div class="col-md-4">
-    <h2>@Model.Comic.Title</h2>
-    <p>@Model.Comic.Description</p>
-</div>
-<div class="col-md-3">
-    <img class="img-responsive rounded mb-lg-0 box box0 " src="@(String.Format("{0}.{1}", Model.Comic.Thumbnail.Path, Model.Comic.Thumbnail.Extension))" style="width:400px" alt="">
-</div>
-<div>
-    
-    
 
-    <p>Characters:</p>
-    @foreach (var character in Model.Characters)
-    {
-        <img class="img-responsive rounded mb-lg-0 box box0 " src="@(String.Format("{0}.{1}", character.Thumbnail.Path, character.Thumbnail.Extension))" style="width:200px" alt="">
-        <p>@character.Name</p>
+<div class="container">
+    <div class="comic">
+        <b>@Model.Comic.Title</b>
+        <p>@Model.Comic.Description</p>
+    </div>
+
+    <div class="comic-image">
+        <img class="img-responsive rounded mb-lg-0 box box0 " src="@(String.Format("{0}.{1}", Model.Comic.Thumbnail.Path, Model.Comic.Thumbnail.Extension))" style="width:400px" alt="">
+    </div>
+    <div class="characters">
         
-    }
-    <h3>@Model.AttributionText</h3>
-
-
+        Characters:
+        @foreach (var character in Model.Characters)
+        {
+            <div class="character-card">
+                @character.Name<br />
+                <img src="@(String.Format("{0}.{1}", character.Thumbnail.Path, character.Thumbnail.Extension))" style="width:200px" alt="">
+            </div>   
+        }
+    </div>
+    <footer>@Model.AttributionText</footer>
 </div>
-
 
