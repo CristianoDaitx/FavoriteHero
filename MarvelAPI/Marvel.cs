@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
+using System.Configuration;
 
 namespace FavoriteHero.MarvelAPI
 {
     public class Marvel
     {
+
         private const string BASE_URL = "http://gateway.marvel.com/v1/public";
         private readonly string _publicKey = "5a70b673464e3e4a65f6b8e485575bef";
         private readonly string _privateKey = "43a929f6eff754bea68f0fdd9b990dcbc4ecd4ed";

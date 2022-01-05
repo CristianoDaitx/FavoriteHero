@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FavoriteHero.MarvelAPI;
 
 
-namespace FavoriteHero.MarvelAPI
+namespace FavoriteHero.Models
 {
     public class CharacterComicViewModel
     {

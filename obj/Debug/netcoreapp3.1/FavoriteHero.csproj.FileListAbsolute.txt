@@ -791,3 +791,4 @@ C:\Users\sarai\Documents\GitHub\FavoriteHero\obj\Debug\netcoreapp3.1\staticwebas
 C:\Users\sarai\Documents\GitHub\FavoriteHero\obj\Debug\netcoreapp3.1\FavoriteHero.dll
 C:\Users\sarai\Documents\GitHub\FavoriteHero\obj\Debug\netcoreapp3.1\FavoriteHero.pdb
 C:\Users\sarai\Documents\GitHub\FavoriteHero\obj\Debug\netcoreapp3.1\FavoriteHero.genruntimeconfig.cache
+C:\Users\sarai\Documents\GitHub\FavoriteHero\obj\Debug\netcoreapp3.1\FavoriteHero.csprojAssemblyReference.cache
